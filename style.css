@@ -1,0 +1,45 @@
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(0deg, #6a6a6a, #a6a6a6);
+}
+
+button{
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover{
+  background-color: lightblue;
+}
+
+input{
+  width: 50px;
+  padding: 7px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+
+input:focus{
+  background-color: lightblue;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  margin-top: 20vh;
+}
+
+#content{
+  flex: 0 0 50vw;
+}

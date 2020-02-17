@@ -5,30 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel='stylesheet' type='text/css' href='./style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <title>Average Run Calculator</title>
 </head>
 <body>
-  <h1>Average Run Calculator</h1>
-  <form id='run-adder'>
-    <label>
-      <input type='text' id='hrs' maxlength='4'>h
-    </label>
-    <label>
-      <input type='text' id='min' maxlength='2'>m
-    </label>
-    <label>
-      <input type='text' id='sec' maxlength='2'>s
-    </label>
-    <label>
-      <input type='text' id='ms' maxlength='3'>ms
-    </label>
-    <button type='button' id='addBtn'>Add Run</button>
-  </form>
-  <section id='runs'>
-    <ul id='runs-list'></ul>
-  </section>
-  <button type='button' id='avgBtn'>Get Average</button>
-  <div id='result'></div>
+  <div class='container'>
+    <div id='content'>
+      <h1>Average Run Calculator</h1>
+      <form id='run-adder'>
+        <label>
+          <input type='text' id='hrs' maxlength='4'> h
+        </label>
+        <label>
+          <input type='text' id='min' maxlength='2'> m
+        </label>
+        <label>
+          <input type='text' id='sec' maxlength='2'> s
+        </label>
+        <button type='button' id='addBtn'>Add Run</button>
+      </form>
+      <br>
+      <section id='runs'></section>
+      <button type='button' id='avgBtn'>Get Average</button>
+      <br>
+      <br>
+      <section id='result'></section>
+    </div>
+  </div>
   <script src='./app.js'></script>
 </body>
 </html>
