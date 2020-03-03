@@ -21,6 +21,7 @@ button:hover{
 }
 
 input{
+  font-family: 'Montserrat', sans-serif;
   width: 50px;
   padding: 7px;
   border: none;
